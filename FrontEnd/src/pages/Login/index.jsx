@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom'
 
 import { BackButton, Container, ForgotPassword, Form, FormInputs, LoginAcess, Title, TopLogin } from "./styles"
 
-import Button from '../../components/Button'
+import { Button } from "../../components/button";
 import Input from "../../components/Inputs"
 
 import ImageLogin from '../../assets/topLogin.svg'

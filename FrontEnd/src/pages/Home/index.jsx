@@ -14,16 +14,7 @@ import Logo from "../../assets/corraAgil.png";
 import { Button } from "../../components/button";
 import { Link } from "react-router-dom";
 
-function Home() {
-
 import { useNavigate } from 'react-router-dom'
-
-import { BackHome, BottonPriority, Container, HomeAccess, LinkPriority, Title, TopHome } from './styles'
-
-import Button from '../../components/Button'
-
-import ImageBackground from '../../assets/home-CorraAgil.svg'
-import Logo from '../../assets/corraAgil.png'
 
 function Home() {
 
@@ -49,9 +40,6 @@ function Home() {
         <Button>
           <Link to={"/cadastro-usuarios"}>COMEÇAR</Link>
         </Button>
-
-        <Button theme="primary" onClick={() => navigate('/login')}>COMEÇAR</Button>
-
 
         <BottonPriority>
           Para proteger sua privacidade e garantir a segurança de suas
